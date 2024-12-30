@@ -53,11 +53,11 @@ function BalanceAtDatePage() {
   style={{
    
     width: "100%",
-    backgroundColor: "#1e1e1e", // Tamna pozadina
-    color: "#ffffff", // Bela boja slova
-    padding: "40px", // Povećajte padding za dodatni razmak
+    backgroundColor: "#1e1e1e", 
+    color: "#ffffff", 
+    padding: "40px", 
     borderRadius: "10px",
-    boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.5)", // Prilagodite senku ako je potrebno
+    boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.5)", 
   }}
 >
         <h1 style={{ marginBottom: "20px" }}>Balances at Specific Date</h1>

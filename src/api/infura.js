@@ -58,12 +58,12 @@ export const fetchTokenBalanceAtBlock = async (address, contractAddress, blockNu
       ];
       const contract = new ethers.Contract(contractAddress, abi, provider);
   
-      const decimals = await contract.decimals(); // Dohvata broj decimala
+      const decimals = await contract.decimals(); 
       const balance = await contract.balanceOf(address, {
         blockTag: BigInt(blockNumber),
       });
   
-      return ethers.formatUnits(balance, decimals); // Konverzija u ispravan format
+      return ethers.formatUnits(balance, decimals); 
     } catch (error) {
       console.error("Error fetching token balance:", error);
       throw error;
